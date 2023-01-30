@@ -1,0 +1,83 @@
+#meal-container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  h1
+  {
+    text-align: center;
+    font-size: 4rem;
+  }
+  
+  #meal-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .meal {
+    width: 25%;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .meal h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  #search {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #search-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  #search-button:hover {
+    background-color: #45a049;
+  }
+  
+
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    /* background-color: lightgray; */
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  input, textarea {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 18px;
+    background-color: green;
+    color: rgb(44, 14, 14);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
